@@ -17,6 +17,7 @@ class authscreen extends StatefulWidget {
 }
 
 class authsreenstate extends State<authscreen> {
+  
   var isloggined = true;
   final formkey = GlobalKey<
       FormState>(); //getting access to the form just like controller.text
